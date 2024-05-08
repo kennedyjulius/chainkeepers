@@ -12,7 +12,8 @@
         "react-app:lint": "yarn workspace @chainkeepers/react-app lint",
         "hardhat:compile": "yarn workspace @chainkeepers/hardhat compile",
         "subgraphs:test": "yarn workspace @chainkeepers/subgraphs test",
-        "subgraphs:get-abi": "yarn workspace @chainkeepers/subgraphs get-abi"
+        "subgraphs:get-abi": "yarn workspace @chainkeepers/subgraphs get-abi",
+        "build": "your-build-command-here"
     },
     "repository": {
         "type": "git",

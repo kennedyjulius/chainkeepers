@@ -23,10 +23,10 @@ export default function Home() {
     return (
         <div className="flex flex-col justify-center items-center">
             <div className="h1">
-                There you go... a canvas for your next Celo project!
+                Here you go , kindly link your wallet with us ...
             </div>
             {isConnected ? (
-                <div className="h2 text-center">
+                <div className="h2 text-center color-blue">
                     Your address: {userAddress}
                 </div>
             ) : (
