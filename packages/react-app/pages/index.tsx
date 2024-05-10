@@ -17,13 +17,13 @@ export default function Home() {
     }, [address, isConnected]);
 
     if (!isMounted) {
-        return null;
+        return null
     }
 
     return (
         <div className="flex flex-col justify-center items-center">
             <div className="h1">
-                Here you go , kindly link your wallet with us ...
+                Here you go , kindly link your wallet with ab
             </div>
             {isConnected ? (
                 <div className="h2 text-center color-blue">
